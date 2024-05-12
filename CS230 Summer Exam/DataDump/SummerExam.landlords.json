@@ -1,0 +1,329 @@
+[{
+  "_id": {
+    "$oid": "66403d31989c26d09639fe8a"
+  },
+  "title": "Mr",
+  "firstName": "John",
+  "surname": "Smith",
+  "phoneNumber": "0123456789",
+  "emailAddress": "john.smith@example.com",
+  "homeAddress": {
+    "addressLine1": "123 Main Street",
+    "addressLine2": "Suite 100",
+    "town": "Springfield",
+    "countyOrCity": "Greene",
+    "eircode": "SP1 2AB"
+  },
+  "dateOfBirth": {
+    "$date": "1980-01-01T00:00:00.000Z"
+  },
+  "permissionToRent": true,
+  "permissionToContactViaEmail": true,
+  "createdAt": {
+    "$date": "2024-05-12T03:53:22.008Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T03:53:22.008Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403d3b989c26d09639fe8c"
+  },
+  "title": "Ms",
+  "firstName": "Emily",
+  "surname": "Clark",
+  "phoneNumber": "2345678901",
+  "emailAddress": "emily.clark@example.com",
+  "homeAddress": {
+    "addressLine1": "456 Oak Avenue",
+    "addressLine2": "Apt 2B",
+    "town": "Centerville",
+    "countyOrCity": "Marion",
+    "eircode": "CT3 5FG"
+  },
+  "dateOfBirth": {
+    "$date": "1990-07-21T00:00:00.000Z"
+  },
+  "permissionToRent": false,
+  "permissionToContactViaEmail": true,
+  "createdAt": {
+    "$date": "2024-05-12T03:53:31.217Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T03:53:31.217Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403d42989c26d09639fe8e"
+  },
+  "title": "Dr",
+  "firstName": "Michael",
+  "surname": "Brown",
+  "phoneNumber": "3456789012",
+  "emailAddress": "michael.brown@example.com",
+  "homeAddress": {
+    "addressLine1": "789 Pine Road",
+    "addressLine2": "",
+    "town": "Riverside",
+    "countyOrCity": "Dane",
+    "eircode": "RV4 6HJ"
+  },
+  "dateOfBirth": {
+    "$date": "1975-11-30T00:00:00.000Z"
+  },
+  "permissionToRent": true,
+  "permissionToContactViaEmail": false,
+  "createdAt": {
+    "$date": "2024-05-12T03:53:38.424Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T03:53:38.424Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403d4e989c26d09639fe90"
+  },
+  "title": "Mrs",
+  "firstName": "Sarah",
+  "surname": "Johnson",
+  "phoneNumber": "4567890123",
+  "emailAddress": "sarah.johnson@example.com",
+  "homeAddress": {
+    "addressLine1": "101 Maple Lane",
+    "addressLine2": "",
+    "town": "Hill Valley",
+    "countyOrCity": "Lorain",
+    "eircode": "HV7 8KL"
+  },
+  "dateOfBirth": {
+    "$date": "1985-03-25T00:00:00.000Z"
+  },
+  "permissionToRent": false,
+  "permissionToContactViaEmail": true,
+  "createdAt": {
+    "$date": "2024-05-12T03:53:50.237Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T03:53:50.237Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403d59989c26d09639fe92"
+  },
+  "title": "Mx",
+  "firstName": "Alex",
+  "surname": "Taylor",
+  "phoneNumber": "5678901234",
+  "emailAddress": "alex.taylor@example.com",
+  "homeAddress": {
+    "addressLine1": "202 Birch Boulevard",
+    "addressLine2": "Unit 5",
+    "town": "Kingstown",
+    "countyOrCity": "Lincoln",
+    "eircode": "KT9 0MN"
+  },
+  "dateOfBirth": {
+    "$date": "1995-09-10T00:00:00.000Z"
+  },
+  "permissionToRent": true,
+  "permissionToContactViaEmail": false,
+  "createdAt": {
+    "$date": "2024-05-12T03:54:01.336Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T03:54:01.336Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403d5f989c26d09639fe94"
+  },
+  "title": "Other",
+  "otherTitle": "Professor",
+  "firstName": "Jane",
+  "surname": "Doe",
+  "phoneNumber": "0987654321",
+  "emailAddress": "jane.doe@example.com",
+  "homeAddress": {
+    "addressLine1": "456 Elm Street",
+    "addressLine2": "",
+    "town": "Shelbyville",
+    "countyOrCity": "Shelby",
+    "eircode": "SH3 4JY"
+  },
+  "dateOfBirth": {
+    "$date": "1975-05-15T00:00:00.000Z"
+  },
+  "permissionToRent": true,
+  "permissionToContactViaEmail": false,
+  "createdAt": {
+    "$date": "2024-05-12T03:54:07.818Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T03:54:07.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403fd2989c26d09639fecf"
+  },
+  "title": "Mr",
+  "otherTitle": "",
+  "firstName": "John",
+  "surname": "Smith",
+  "phoneNumber": "0123456789",
+  "emailAddress": "john.smith@example.com",
+  "homeAddress": {
+    "addressLine1": "789 Pine Street",
+    "addressLine2": "Apt 101",
+    "town": "Springfield",
+    "countyOrCity": "Clark",
+    "eircode": "SP1 2XY"
+  },
+  "dateOfBirth": {
+    "$date": "1980-08-22T00:00:00.000Z"
+  },
+  "permissionToRent": true,
+  "permissionToContactViaEmail": true,
+  "createdAt": {
+    "$date": "2024-05-12T04:04:34.190Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:04:34.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403fd5989c26d09639fed1"
+  },
+  "title": "Mrs",
+  "otherTitle": "",
+  "firstName": "Alice",
+  "surname": "Brown",
+  "phoneNumber": "9876543210",
+  "emailAddress": "alice.brown@example.com",
+  "homeAddress": {
+    "addressLine1": "123 Maple Avenue",
+    "addressLine2": "",
+    "town": "Greenville",
+    "countyOrCity": "Green",
+    "eircode": "GR2 5UV"
+  },
+  "dateOfBirth": {
+    "$date": "1972-11-30T00:00:00.000Z"
+  },
+  "permissionToRent": false,
+  "permissionToContactViaEmail": true,
+  "createdAt": {
+    "$date": "2024-05-12T04:04:37.682Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:04:37.682Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403fd9989c26d09639fed3"
+  },
+  "title": "Dr",
+  "otherTitle": "",
+  "firstName": "Robert",
+  "surname": "Johnson",
+  "phoneNumber": "0981234567",
+  "emailAddress": "robert.johnson@example.com",
+  "homeAddress": {
+    "addressLine1": "456 Oak Lane",
+    "addressLine2": "Suite B",
+    "town": "Newtown",
+    "countyOrCity": "New",
+    "eircode": "NT3 6ZX"
+  },
+  "dateOfBirth": {
+    "$date": {
+      "$numberLong": "-59356800000"
+    }
+  },
+  "permissionToRent": true,
+  "permissionToContactViaEmail": false,
+  "createdAt": {
+    "$date": "2024-05-12T04:04:41.003Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:04:41.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403fdf989c26d09639fed6"
+  },
+  "title": "Other",
+  "otherTitle": "Engineer",
+  "firstName": "Jessica",
+  "surname": "Wilson",
+  "phoneNumber": "0654321987",
+  "emailAddress": "jessica.wilson@example.com",
+  "homeAddress": {
+    "addressLine1": "456 Ash Way",
+    "addressLine2": "",
+    "town": "Clearwater",
+    "countyOrCity": "Clear",
+    "eircode": "CW6 9BC"
+  },
+  "dateOfBirth": {
+    "$date": "1985-12-05T00:00:00.000Z"
+  },
+  "permissionToRent": false,
+  "permissionToContactViaEmail": true,
+  "createdAt": {
+    "$date": "2024-05-12T04:04:47.843Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:04:47.843Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403ff6989c26d09639feda"
+  },
+  "title": "Other",
+  "otherTitle": "Scientist",
+  "firstName": "Lucas",
+  "surname": "Garcia",
+  "phoneNumber": "0234567890",
+  "emailAddress": "lucas.garcia@example.com",
+  "homeAddress": {
+    "addressLine1": "789 Redwood Drive",
+    "addressLine2": "",
+    "town": "Lakeside",
+    "countyOrCity": "Lake",
+    "eircode": "LK0 3KL"
+  },
+  "dateOfBirth": {
+    "$date": {
+      "$numberLong": "-142300800000"
+    }
+  },
+  "permissionToRent": false,
+  "permissionToContactViaEmail": true,
+  "createdAt": {
+    "$date": "2024-05-12T04:05:10.222Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:05:10.222Z"
+  },
+  "__v": 0
+}]

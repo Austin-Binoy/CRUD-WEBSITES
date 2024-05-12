@@ -1,0 +1,721 @@
+[{
+  "_id": {
+    "$oid": "66403eb8989c26d09639fe97"
+  },
+  "contractDate": {
+    "$date": "2024-05-01T00:00:00.000Z"
+  },
+  "propertyAddress": "123 Main St",
+  "tenants": [
+    "John Doe",
+    "Jane Smith"
+  ],
+  "landlord": "Michael Johnson",
+  "feeMonthly": 1200,
+  "propertyDoorNumber": "1A",
+  "contractLength": "Year",
+  "propertyType": "Apartment",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T03:59:52.552Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T03:59:52.552Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403ebf989c26d09639fe99"
+  },
+  "contractDate": {
+    "$date": "2024-06-15T00:00:00.000Z"
+  },
+  "propertyAddress": "456 Oak Ave",
+  "tenants": [
+    "Alice Brown",
+    "Bob White"
+  ],
+  "landlord": "Sandra Green",
+  "feeMonthly": 1500,
+  "propertyDoorNumber": "2B",
+  "contractLength": "Month",
+  "propertyType": "Semi-Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T03:59:59.196Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T03:59:59.196Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403ec4989c26d09639fe9b"
+  },
+  "contractDate": {
+    "$date": "2024-07-20T00:00:00.000Z"
+  },
+  "propertyAddress": "789 Pine Rd",
+  "tenants": [
+    "Charlie Black"
+  ],
+  "landlord": "Nancy Blue",
+  "feeMonthly": 1000,
+  "propertyDoorNumber": "3C",
+  "contractLength": "Permanent",
+  "propertyType": "Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:00:04.058Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:00:04.058Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403ec8989c26d09639fe9d"
+  },
+  "contractDate": {
+    "$date": "2024-08-05T00:00:00.000Z"
+  },
+  "propertyAddress": "321 Birch Ln",
+  "tenants": [
+    "David Orange",
+    "Eva Purple"
+  ],
+  "landlord": "Frank Red",
+  "feeMonthly": 900,
+  "propertyDoorNumber": "4D",
+  "contractLength": "Year",
+  "propertyType": "Other",
+  "otherPropertyType": "Townhouse",
+  "createdAt": {
+    "$date": "2024-05-12T04:00:08.924Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:00:08.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403ecd989c26d09639fe9f"
+  },
+  "contractDate": {
+    "$date": "2024-09-10T00:00:00.000Z"
+  },
+  "propertyAddress": "654 Cedar Blvd",
+  "tenants": [
+    "George Yellow",
+    "Hannah Pink"
+  ],
+  "landlord": "Isabel Gray",
+  "feeMonthly": 1400,
+  "propertyDoorNumber": "5E",
+  "contractLength": "Month",
+  "propertyType": "Apartment",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:00:13.761Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:00:13.761Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403ed7989c26d09639fea1"
+  },
+  "contractDate": {
+    "$date": "2024-10-12T00:00:00.000Z"
+  },
+  "propertyAddress": "987 Maple St",
+  "tenants": [
+    "Ivy Lime",
+    "Jack Mint"
+  ],
+  "landlord": "Karen Aqua",
+  "feeMonthly": 1600,
+  "propertyDoorNumber": "6F",
+  "contractLength": "Permanent",
+  "propertyType": "Semi-Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:00:23.827Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:00:23.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403ee0989c26d09639fea3"
+  },
+  "contractDate": {
+    "$date": "2024-11-08T00:00:00.000Z"
+  },
+  "propertyAddress": "543 Elm Ave",
+  "tenants": [
+    "Liam Beige",
+    "Mia Teal"
+  ],
+  "landlord": "Noah Maroon",
+  "feeMonthly": 1300,
+  "propertyDoorNumber": "7G",
+  "contractLength": "Year",
+  "propertyType": "Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:00:32.625Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:00:32.625Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403ee5989c26d09639fea5"
+  },
+  "contractDate": {
+    "$date": "2024-12-20T00:00:00.000Z"
+  },
+  "propertyAddress": "210 Aspen Dr",
+  "tenants": [
+    "Olivia Peach"
+  ],
+  "landlord": "Paul Olive",
+  "feeMonthly": 1100,
+  "propertyDoorNumber": "8H",
+  "contractLength": "Month",
+  "propertyType": "Other",
+  "otherPropertyType": "Cottage",
+  "createdAt": {
+    "$date": "2024-05-12T04:00:37.547Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:00:37.547Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403eea989c26d09639fea7"
+  },
+  "contractDate": {
+    "$date": "2025-01-14T00:00:00.000Z"
+  },
+  "propertyAddress": "111 Walnut Pl",
+  "tenants": [
+    "Quinn Lavender",
+    "Rachel Violet"
+  ],
+  "landlord": "Sam Coral",
+  "feeMonthly": 1250,
+  "propertyDoorNumber": "9I",
+  "contractLength": "Permanent",
+  "propertyType": "Apartment",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:00:42.510Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:00:42.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403eef989c26d09639fea9"
+  },
+  "contractDate": {
+    "$date": "2025-02-18T00:00:00.000Z"
+  },
+  "propertyAddress": "222 Chestnut Ct",
+  "tenants": [
+    "Tommy Silver"
+  ],
+  "landlord": "Uma Gold",
+  "feeMonthly": 1350,
+  "propertyDoorNumber": "10J",
+  "contractLength": "Year",
+  "propertyType": "Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:00:47.534Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:00:47.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f3f989c26d09639feab"
+  },
+  "contractDate": {
+    "$date": "2025-03-22T00:00:00.000Z"
+  },
+  "propertyAddress": "333 Hickory Ln",
+  "tenants": [
+    "Victor Silver",
+    "Wendy Gold"
+  ],
+  "landlord": "Xander Bronze",
+  "feeMonthly": 1450,
+  "propertyDoorNumber": "11K",
+  "contractLength": "Month",
+  "propertyType": "Semi-Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:02:07.739Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:02:07.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f4a989c26d09639fead"
+  },
+  "contractDate": {
+    "$date": "2024-06-15T00:00:00.000Z"
+  },
+  "propertyAddress": "456 Oak Ave",
+  "tenants": [
+    "Alice Brown",
+    "Bob White"
+  ],
+  "landlord": "Sandra Green",
+  "feeMonthly": 1500,
+  "propertyDoorNumber": "2B",
+  "contractLength": "Month",
+  "propertyType": "Semi-Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:02:18.644Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:02:18.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f4f989c26d09639feaf"
+  },
+  "contractDate": {
+    "$date": "2024-07-20T00:00:00.000Z"
+  },
+  "propertyAddress": "789 Pine Rd",
+  "tenants": [
+    "Charlie Black"
+  ],
+  "landlord": "Nancy Blue",
+  "feeMonthly": 1000,
+  "propertyDoorNumber": "3C",
+  "contractLength": "Permanent",
+  "propertyType": "Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:02:23.295Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:02:23.295Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f53989c26d09639feb1"
+  },
+  "contractDate": {
+    "$date": "2024-08-05T00:00:00.000Z"
+  },
+  "propertyAddress": "321 Birch Ln",
+  "tenants": [
+    "David Orange",
+    "Eva Purple"
+  ],
+  "landlord": "Frank Red",
+  "feeMonthly": 900,
+  "propertyDoorNumber": "4D",
+  "contractLength": "Year",
+  "propertyType": "Other",
+  "otherPropertyType": "Townhouse",
+  "createdAt": {
+    "$date": "2024-05-12T04:02:27.235Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:02:27.235Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f57989c26d09639feb3"
+  },
+  "contractDate": {
+    "$date": "2024-09-10T00:00:00.000Z"
+  },
+  "propertyAddress": "654 Cedar Blvd",
+  "tenants": [
+    "George Yellow",
+    "Hannah Pink"
+  ],
+  "landlord": "Isabel Gray",
+  "feeMonthly": 1400,
+  "propertyDoorNumber": "5E",
+  "contractLength": "Month",
+  "propertyType": "Apartment",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:02:31.424Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:02:31.424Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f5c989c26d09639feb5"
+  },
+  "contractDate": {
+    "$date": "2024-10-12T00:00:00.000Z"
+  },
+  "propertyAddress": "987 Maple St",
+  "tenants": [
+    "Ivy Lime",
+    "Jack Mint"
+  ],
+  "landlord": "Karen Aqua",
+  "feeMonthly": 1600,
+  "propertyDoorNumber": "6F",
+  "contractLength": "Permanent",
+  "propertyType": "Semi-Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:02:36.883Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:02:36.883Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f61989c26d09639feb7"
+  },
+  "contractDate": {
+    "$date": "2024-11-08T00:00:00.000Z"
+  },
+  "propertyAddress": "543 Elm Ave",
+  "tenants": [
+    "Liam Beige",
+    "Mia Teal"
+  ],
+  "landlord": "Noah Maroon",
+  "feeMonthly": 1300,
+  "propertyDoorNumber": "7G",
+  "contractLength": "Year",
+  "propertyType": "Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:02:41.480Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:02:41.480Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f65989c26d09639feb9"
+  },
+  "contractDate": {
+    "$date": "2024-12-20T00:00:00.000Z"
+  },
+  "propertyAddress": "210 Aspen Dr",
+  "tenants": [
+    "Olivia Peach"
+  ],
+  "landlord": "Paul Olive",
+  "feeMonthly": 1100,
+  "propertyDoorNumber": "8H",
+  "contractLength": "Month",
+  "propertyType": "Other",
+  "otherPropertyType": "Cottage",
+  "createdAt": {
+    "$date": "2024-05-12T04:02:45.476Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:02:45.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f6a989c26d09639febb"
+  },
+  "contractDate": {
+    "$date": "2025-01-14T00:00:00.000Z"
+  },
+  "propertyAddress": "111 Walnut Pl",
+  "tenants": [
+    "Quinn Lavender",
+    "Rachel Violet"
+  ],
+  "landlord": "Sam Coral",
+  "feeMonthly": 1250,
+  "propertyDoorNumber": "9I",
+  "contractLength": "Permanent",
+  "propertyType": "Apartment",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:02:50.202Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:02:50.202Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f6e989c26d09639febd"
+  },
+  "contractDate": {
+    "$date": "2025-02-18T00:00:00.000Z"
+  },
+  "propertyAddress": "222 Chestnut Ct",
+  "tenants": [
+    "Tommy Silver"
+  ],
+  "landlord": "Uma Gold",
+  "feeMonthly": 1350,
+  "propertyDoorNumber": "10J",
+  "contractLength": "Year",
+  "propertyType": "Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:02:54.280Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:02:54.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f7c989c26d09639febf"
+  },
+  "contractDate": {
+    "$date": "2025-05-20T00:00:00.000Z"
+  },
+  "propertyAddress": "555 Magnolia Blvd",
+  "tenants": [
+    "Bella Ruby",
+    "Carter Topaz"
+  ],
+  "landlord": "Dana Amber",
+  "feeMonthly": 1650,
+  "propertyDoorNumber": "13M",
+  "contractLength": "Year",
+  "propertyType": "Apartment",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:03:08.645Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:03:08.645Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f80989c26d09639fec1"
+  },
+  "contractDate": {
+    "$date": "2025-06-18T00:00:00.000Z"
+  },
+  "propertyAddress": "666 Redwood St",
+  "tenants": [
+    "Ethan Crystal",
+    "Fiona Pearl"
+  ],
+  "landlord": "George Opal",
+  "feeMonthly": 1750,
+  "propertyDoorNumber": "14N",
+  "contractLength": "Month",
+  "propertyType": "Other",
+  "otherPropertyType": "Villa",
+  "createdAt": {
+    "$date": "2024-05-12T04:03:12.157Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:03:12.157Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f83989c26d09639fec3"
+  },
+  "contractDate": {
+    "$date": "2025-07-25T00:00:00.000Z"
+  },
+  "propertyAddress": "777 Maplewood Ct",
+  "tenants": [
+    "Hannah Quartz",
+    "Isaiah Garnet"
+  ],
+  "landlord": "Julia Diamond",
+  "feeMonthly": 1850,
+  "propertyDoorNumber": "15O",
+  "contractLength": "Permanent",
+  "propertyType": "Semi-Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:03:15.797Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:03:15.797Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f87989c26d09639fec5"
+  },
+  "contractDate": {
+    "$date": "2025-08-10T00:00:00.000Z"
+  },
+  "propertyAddress": "888 Poplar Ave",
+  "tenants": [
+    "Kevin Jade",
+    "Laura Onyx"
+  ],
+  "landlord": "Mason Agate",
+  "feeMonthly": 1950,
+  "propertyDoorNumber": "16P",
+  "contractLength": "Year",
+  "propertyType": "Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:03:19.091Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:03:19.091Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f8a989c26d09639fec7"
+  },
+  "contractDate": {
+    "$date": "2025-09-15T00:00:00.000Z"
+  },
+  "propertyAddress": "999 Sycamore Rd",
+  "tenants": [
+    "Nina Amber",
+    "Oscar Citrine"
+  ],
+  "landlord": "Paul Jasper",
+  "feeMonthly": 2050,
+  "propertyDoorNumber": "17Q",
+  "contractLength": "Month",
+  "propertyType": "Other",
+  "otherPropertyType": "Cabin",
+  "createdAt": {
+    "$date": "2024-05-12T04:03:22.110Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:03:22.110Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f8e989c26d09639fec9"
+  },
+  "contractDate": {
+    "$date": "2025-10-12T00:00:00.000Z"
+  },
+  "propertyAddress": "1010 Palm Blvd",
+  "tenants": [
+    "Quincy Malachite",
+    "Rachel Azurite"
+  ],
+  "landlord": "Sam Turquoise",
+  "feeMonthly": 2150,
+  "propertyDoorNumber": "18R",
+  "contractLength": "Permanent",
+  "propertyType": "Apartment",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:03:26.067Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:03:26.067Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f91989c26d09639fecb"
+  },
+  "contractDate": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  },
+  "propertyAddress": "1111 Cedar Dr",
+  "tenants": [
+    "Tina Amethyst",
+    "Umar Obsidian"
+  ],
+  "landlord": "Vera Tourmaline",
+  "feeMonthly": 2250,
+  "propertyDoorNumber": "19S",
+  "contractLength": "Year",
+  "propertyType": "Semi-Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:03:29.495Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:03:29.495Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66403f96989c26d09639fecd"
+  },
+  "contractDate": {
+    "$date": "2025-12-06T00:00:00.000Z"
+  },
+  "propertyAddress": "1212 Fir Ln",
+  "tenants": [
+    "Walter Sunstone"
+  ],
+  "landlord": "Xena Zircon",
+  "feeMonthly": 2350,
+  "propertyDoorNumber": "20T",
+  "contractLength": "Month",
+  "propertyType": "Detached",
+  "otherPropertyType": "",
+  "createdAt": {
+    "$date": "2024-05-12T04:03:34.134Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T04:03:34.134Z"
+  },
+  "__v": 0
+}]

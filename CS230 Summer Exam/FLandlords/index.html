@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landlord Management</title>
+    <link rel="stylesheet" href="/FLandlords/style.css">
+    <style>
+ 
+    </style>
+    <script>
+       
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/FTenants/index.html">Tenant</a>
+        <a href="/FLandlords/index.html">Landlord</a>
+        <a href="/FContract/index.html">Contract</a>
+      </div>
+    <div class="container">
+        <h1>Create Landlord</h1>
+        <form id="createLandlordForm" onsubmit="submitForm(event, 'createLandlordForm', '/api/landlords', 'POST')">
+            <label for="createTitle">Title:</label>
+            <select id="createTitle" name="title" onchange="checkTitle('create')" required>
+                <option value="">Select title</option>
+                <option value="Mx">Mx</option>
+                <option value="Ms">Ms</option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Miss">Miss</option>
+                <option value="Dr">Dr</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <div id="createOtherTitleDiv" class="hidden">
+                <label for="createOtherTitle">Specify Other Title:</label>
+                <input type="text" id="createOtherTitle" name="otherTitle">
+            </div>
+
+            <label for="createFirstName">First Name:</label>
+            <input type="text" id="createFirstName" name="firstName" required>
+
+            <label for="createSurname">Surname:</label>
+            <input type="text" id="createSurname" name="surname" required>
+
+            <label for="createPhoneNumber">Phone Number:</label>
+            <input type="text" id="createPhoneNumber" name="phoneNumber" required>
+
+            <label for="createEmailAddress">Email Address:</label>
+            <input type="email" id="createEmailAddress" name="emailAddress" required>
+
+            <label for="createAddressLine1">Address Line 1:</label>
+            <input type="text" id="createAddressLine1" name="addressLine1" required>
+
+            <label for="createAddressLine2">Address Line 2:</label>
+            <input type="text" id="createAddressLine2" name="addressLine2">
+
+            <label for="createTown">Town:</label>
+            <input type="text" id="createTown" name="town" required>
+
+            <label for="createCountyOrCity">County/City:</label>
+            <input type="text" id="createCountyOrCity" name="countyOrCity" required>
+
+            <label for="createEircode">Eircode:</label>
+            <input type="text" id="createEircode" name="eircode">
+
+            <label for="createDateOfBirth">Date of Birth:</label>
+            <input type="date" id="createDateOfBirth" name="dateOfBirth" required>
+
+            <label for="createPermissionToRent">Permission to Rent (Y/N):</label>
+            <select id="createPermissionToRent" name="permissionToRent" required>
+                <option value="">Select option</option>
+                <option value="true">Y</option>
+                <option value="false">N</option>
+            </select>
+
+            <label for="createPermissionToContactViaEmail">Permission to Contact via Email (Y/N):</label>
+            <select id="createPermissionToContactViaEmail" name="permissionToContactViaEmail" required>
+                <option value="">Select option</option>
+                <option value="true">Y</option>
+                <option value="false">N</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Update Landlord</h1>
+        <form id="updateLandlordForm" onsubmit="submitForm(event, 'updateLandlordForm', '/api/landlords', 'PUT')">
+            <label for="updateLandlordId">Landlord ID:</label>
+            <input type="text" id="updateLandlordId" name="id" required>
+
+            <label for="updateTitle">Title:</label>
+            <select id="updateTitle" name="title" onchange="checkTitle('update')">
+                <option value="">Select title</option>
+                <option value="Mx">Mx</option>
+                <option value="Ms">Ms</option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Miss">Miss</option>
+                <option value="Dr">Dr</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <div id="updateOtherTitleDiv" class="hidden">
+                <label for="updateOtherTitle">Specify Other Title:</label>
+                <input type="text" id="updateOtherTitle" name="otherTitle">
+            </div>
+
+            <label for="updateFirstName">First Name:</label>
+            <input type="text" id="updateFirstName" name="firstName">
+
+            <label for="updateSurname">Surname:</label>
+            <input type="text" id="updateSurname" name="surname">
+
+            <label for="updatePhoneNumber">Phone Number:</label>
+            <input type="text" id="updatePhoneNumber" name="phoneNumber">
+
+            <label for="updateEmailAddress">Email Address:</label>
+            <input type="email" id="updateEmailAddress" name="emailAddress">
+
+            <label for="updateAddressLine1">Address Line 1:</label>
+            <input type="text" id="updateAddressLine1" name="addressLine1">
+
+            <label for="updateAddressLine2">Address Line 2:</label>
+            <input type="text" id="updateAddressLine2" name="addressLine2">
+
+            <label for="updateTown">Town:</label>
+            <input type="text" id="updateTown" name="town">
+
+            <label for="updateCountyOrCity">County/City:</label>
+            <input type="text" id="updateCountyOrCity" name="countyOrCity">
+
+            <label for="updateEircode">Eircode:</label>
+            <input type="text" id="updateEircode" name="eircode">
+
+            <label for="updateDateOfBirth">Date of Birth:</label>
+            <input type="date" id="updateDateOfBirth" name="dateOfBirth">
+
+            <label for="updatePermissionToRent">Permission to Rent (Y/N):</label>
+            <select id="updatePermissionToRent" name="permissionToRent">
+                <option value="">Select option</option>
+                <option value="true">Y</option>
+                <option value="false">N</option>
+            </select>
+
+            <label for="updatePermissionToContactViaEmail">Permission to Contact via Email (Y/N):</label>
+            <select id="updatePermissionToContactViaEmail" name="permissionToContactViaEmail">
+                <option value="">Select option</option>
+                <option value="true">Y</option>
+                <option value="false">N</option>
+            </select>
+
+            <button type="submit">Update</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Delete Landlord</h1>
+        <form id="deleteLandlordForm" onsubmit="submitForm(event, 'deleteLandlordForm', '/api/landlords', 'DELETE')">
+            <label for="deleteLandlordId">Landlord ID:</label>
+            <input type="text" id="deleteLandlordId" name="id" required>
+
+            <button type="submit">Delete</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Retrieve Landlord</h1>
+        <form id="retrieveLandlordForm" onsubmit="submitForm(event, 'retrieveLandlordForm', '/api/landlords', 'GET')">
+            <label for="retrieveLandlordId">Landlord ID:</label>
+            <input type="text" id="retrieveLandlordId" name="id" required>
+
+            <button type="submit">Retrieve</button>
+        </form>
+    </div>
+    <script src="/FLandlords//Landlordsajax.js"></script>
+</body>
+
+</html>
